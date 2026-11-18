@@ -1,6 +1,6 @@
 # Supported Boards
 
-**Total supported boards: 3**
+**Total supported boards: 5**
 
 ## 1. WeActStudio STM32H723 Core Board
 ![WeActStudio STM32H723 Core Board](pic/WeActStudio%20STM32H723%20Core%20Board.jpeg)
@@ -19,3 +19,15 @@
 - URL: https://nanopi.io/nanopi-neo.html
 - Supported example: `hello_world`
 - source code: https://github.com/HenryXin/zephyr/tree/test-nanopi-neo-v1.2
+
+## 4. LILYGO T-Higrow
+![LILYGO T-Higrow](pic/LILYGO%20Higrow.png)
+- URL: https://lilygo.cc/products/t-higrow
+- Supported example: `hello_world`
+- source code: https://github.com/HenryXin/zephyr/tree/add_ttgo_t_higrow
+
+## 5. RA2E2 Fast Prototyping Board
+![RA2E2 Fast Prototyping Board](pic/RA2E2%20Fast%20Prototyping%20Board.png)
+- URL: https://www.renesas.com/en/design-resources/boards-kits/fpb-ra2e2
+- Supported example: `hello_world`
+- source code: https://github.com/HenryXin/zephyr/tree/add_renesas_ra2e2
