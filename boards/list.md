@@ -1,6 +1,6 @@
 # Supported Boards
 
-**Total supported boards: 5**
+**Total supported boards: 6**
 
 ## 1. WeActStudio STM32H723 Core Board
 ![WeActStudio STM32H723 Core Board](pic/WeActStudio%20STM32H723%20Core%20Board.jpeg)
@@ -31,3 +31,10 @@
 - URL: https://www.renesas.com/en/design-resources/boards-kits/fpb-ra2e2
 - Supported example: `hello_world`
 - source code: https://github.com/HenryXin/zephyr/tree/add_renesas_ra2e2
+
+## 6. WeAct BluePill-Plus (GD32F303CCT6)
+![WeAct BluePill-Plus (GD32F303CCT6)](pic/WeAct%20BluePill-Plus%20(GD32F303CCT6).png)
+- URL: https://github.com/WeActStudio/BluePill-Plus
+- Supported example: `hello_world`
+- source code: https://github.com/HenryXin/zephyr/tree/add_weact_gb32f303cct6_bluepill
+- Note the code was based on gd32f403, no gdb32f303 real port exists.
